@@ -6,6 +6,7 @@ import androidx.credentials.CredentialManager
 import androidx.credentials.CustomCredential
 import androidx.credentials.GetCredentialRequest
 import androidx.credentials.GetCredentialResponse
+import androidx.credentials.exceptions.GetCredentialCancellationException
 import com.example.data.local.ChatMessage
 import com.example.data.local.ChatSession
 import com.example.data.local.MessageSender
@@ -157,6 +158,9 @@ class FirebaseManager(private val context: Context) {
             } else {
                 Result.failure(Exception("Unexpected credential type returned from Google"))
             }
+        } catch (e: GetCredentialCancellationException) {
+            Log.d("FirebaseManager", "User cancelled Google sign in dialog")
+            Result.failure(e)
         } catch (e: Exception) {
             Log.e("FirebaseManager", "signInWithGoogle error: ${e.message}", e)
             Result.failure(e)

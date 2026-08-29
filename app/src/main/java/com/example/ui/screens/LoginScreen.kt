@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -120,14 +121,17 @@ fun LoginScreen(
         errorMessage = null
 
         viewModel.signInWithGoogleNative { success, error ->
+            isLoading = false
             if (success) {
-                isLoading = false
                 Toast.makeText(context, "Welcome to Somet AI!", Toast.LENGTH_SHORT).show()
                 onLoginSuccess()
             } else {
-                // If Play Services credential manager prompt is canceled or unavailable in emulator, open clean prompt
-                isLoading = false
-                showGoogleAccountDialog = true
+                // If the user cancelled or closed the prompt, do not aggressively pop up the fallback dialog
+                val isCancelled = error?.contains("Cancelled", ignoreCase = true) == true ||
+                        error?.contains("16", ignoreCase = true) == true
+                if (!isCancelled) {
+                    showGoogleAccountDialog = true
+                }
             }
         }
     }
@@ -188,7 +192,8 @@ fun LoginScreen(
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
             .statusBarsPadding()
-            .navigationBarsPadding(),
+            .navigationBarsPadding()
+            .imePadding(),
         contentAlignment = Alignment.Center
     ) {
         Column(
