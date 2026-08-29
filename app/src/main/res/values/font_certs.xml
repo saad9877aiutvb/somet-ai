@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANJOM3kHqBoZMA0GCSqGSIb3DQEBBQUAMIGUMQswCQYDVQQGEwJV
+            UzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UE
+            ChMHR29vZ2xlMRAwDgYDVQQLEwdBbmRyb2lkMRAwDgYDVQQDEwdBbmRyb2lkMCEwHwYJKoZI
+            hvcNAQkBFhJyb290QGFuZHJvaWQuY29tMB4XDTA4MDQxNTIwMTMxOVoXDTA4MDUxNTIwMTMx
+            OVowgZQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3Vu
+            dGFpbiBWaWV3MRAwDgYDVQQKEwdHb29nbGUxEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0Fu
+            ZHJvaWQxITAfBgkqhkiG9w0BCQEWEnJvb3RAYW5kcm9pZC5jb20wggEiMA0GCSqGSIb3DQEB
+            AQUAA4IBDwAwggEKAoIBAQCWpCgHaeH11Zp7Qcwh05n2z53w/e5t9a4e760lE6Xy7x3uYx+R
+            uE42XGf/e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+
+            e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+
+            e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+
+            e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+e8y7z8i+
+            AgMBAAGjgecwgeQwHQYDVR0OBBYEFB+5wO+r/9k8K+7Q/q1uW6h1R6v9MIGdBgNVHSMEgZUw
+            gZKAFA+5wO+r/9k8K+7Q/q1uW6h1R6v9oYGappkwgZYxCzAJBgNVBAYTAlVTMRMwEQYDVQQI
+            EwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRAwDgYDVQQKEwdHb29nbGUx
+            EDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWQxITAfBgkqhkiG9w0BCQEWEnJv
+            b3RAYW5kcm9pZC5jb22CCQDSTjN5B6gaGjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUA
+            A4IBAQCptv6aYv9j0o0Gf7p1K6fLLr5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANJOM3kHqBoZMA0GCSqGSIb3DQEBBQUAMIGUMQswCQYDVQQGEwJV
+            UzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UE
+            ChMHR29vZ2xlMRAwDgYDVQQLEwdBbmRyb2lkMRAwDgYDVQQDEwdBbmRyb2lkMCEwHwYJKoZI
+            hvcNAQkBFhJyb290QGFuZHJvaWQuY29tMB4XDTA4MDQxNTIwMTMxOVoXDTA4MDUxNTIwMTMx
+            OVowgZQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3Vu
+            dGFpbiBWaWV3MRAwDgYDVQQKEwdHb29nbGUxEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0Fu
+            ZHJvaWQxITAfBgkqhkiG9w0BCQEWEnJvb3RAYW5kcm9pZC5jb20wggEiMA0GCSqGSIb3DQEB
+            AQUAA4IBDwAwggEKAoIBAQCptv6aYv9j0o0Gf7p1K6fLLr5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            AgMBAAGjgecwgeQwHQYDVR0OBBYEFB+5wO+r/9k8K+7Q/q1uW6h1R6v9MIGdBgNVHSMEgZUw
+            gZKAFA+5wO+r/9k8K+7Q/q1uW6h1R6v9oYGappkwgZYxCzAJBgNVBAYTAlVTMRMwEQYDVQQI
+            EwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRAwDgYDVQQKEwdHb29nbGUx
+            EDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWQxITAfBgkqhkiG9w0BCQEWEnJv
+            b3RAYW5kcm9pZC5jb22CCQDSTjN5B6gaGjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUA
+            A4IBAQCptv6aYv9j0o0Gf7p1K6fLLr5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+            X/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5vX/5v
+        </item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "name": "Somet AI",
+  "description": "A modern AI chatbot inspired by Claude with a minimalist cream aesthetic, real-time streaming, and local chat history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
